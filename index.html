@@ -1,37 +1,66 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Livro usado</title>
+    <title>Loja de livros trocados</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <!-- Cabeçalho -->
     <header>
-        <div class="header-container">
-            <div class="logo">La<span>Boutique</span></div>
+        <div class="banner">
+    
+            <div class="logo">Lucas & <span>Livros</span></div>
             <nav>
                 <ul>
                     <li><a href="#">Início</a></li>
                     <li><a href="#products">Livros</a></li>
                     <li><a href="#cadastro">Cadastro</a></li>
+                    <li><a href="#contato">Contato</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-    <br><br>
-    <section class="products" id="products">
-        <h2 class="produtos">Nossos Produtos</h2>
-        <div class="products-grid" id="products-grid"></div>
-    </section>
-    </header>
-    <div class="osLivros">
-        <img src="image/o casal.jpg">
-        <P>O casal que mora ao lado</P>
-    </div>
-</body>
-<script src="scripts.js"></script>
 
+    <!-- Banner principal -->
+    <section class="hero">
+        <h1>Entre páginas e sonhos, descubra o próximo capítulo da sua imaginação!</h1>
+        <p>Livros que inspiram, histórias que transformam.</p><br><br>
+        <a href="#products" class="btn">Ver Produtos</a>
+    </section>
+
+    <!-- Seção de produtos -->
+    <section class="products" id="products">
+        <h2 class="section-title">Nossos Produtos</h2>
+        <div class="products-grid">
+            <div class="product-card">
+                <img src="image/assasino.jpg" alt="Livro It a Coisa">
+                <h3>Assasinato do expresso do oriente</h3>
+                <a href="livro1.html"><button>Ver detalhes</button></a>
+            </div>
+
+            <div class="product-card">
+                <img src="image/livro 2.jpg" alt="Harry Potter e a Pedra Filosofal">
+                <h3>Harry Potter e a Pedra Filosofal</h3>
+                <a href="livro2.html"><button>Ver detalhes</button></a>
+            </div>
+
+            <div class="product-card">
+                <img src="image/livro 3.webp" alt="O Mistério do Relógio na Parede">
+                <h3>O Mistério do Relógio na Parede</h3>
+                <a href="livro3.html"><button>Ver detalhes</button></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 LaBoutique. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
 </html>
